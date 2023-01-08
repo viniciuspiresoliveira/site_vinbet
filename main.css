@@ -135,6 +135,7 @@ section {
 
 .social-sites li {
     display: inline;
+    margin-right: 8px;
 }
 
 .social-sites a {
