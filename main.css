@@ -1,0 +1,177 @@
+/* Reset inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header e formatações iniciais */
+.logo-site {
+    display: flex;
+    align-items: center;
+}
+
+.logo-site img {
+    height: 100px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header, footer {
+    padding: 16px 0;
+    background-color: #0e8269;
+    color: #fff
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+/* Fonts e Displays */
+
+body, input, textarea {
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.bet-mobile {
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.bet-mobile img {
+    height: 230px;
+    margin-left: 32px
+}
+
+#about .bet-portal {
+    display: flex;
+    align-items:initial;
+}
+
+#about p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#about img {
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section h2, section h3 {
+    margin-bottom: 15px;
+}
+
+form textarea {
+    resize: none;
+}
+
+section h2, 
+section h3 {
+    font-family: 'Comfortaa', cursive;
+    color: #0e8269;
+    font-weight: bolder;
+}
+
+.information {
+    color: #052f35;
+    font-size:xx-large;
+    padding: 15px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+header {
+    font-family: 'Comfortaa', cursive;
+    font-size: large;
+}
+
+header .container,
+section .container,
+section .bet-portal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1, 
+header li, 
+section,
+footer p {
+    margin: 0 25px;
+}
+
+.container {
+    max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+section {
+    padding: 8px 0;
+}
+
+.bet-portal img {
+    height: 240px;
+    margin-right: 32px;
+}
+
+.social-sites img {
+    height: 24px;
+}
+
+.social-sites li {
+    display: inline;
+}
+
+.social-sites a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Forms */
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color:#0e8269;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #053a32;
+}
